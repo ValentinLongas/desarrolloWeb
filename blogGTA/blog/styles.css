@@ -1,0 +1,257 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding-left: 15vw;
+    padding-right: 15vw;
+    background-color: #141517;
+    background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center center;
+}
+
+.top {
+    height: 40px;
+    background-color: #081902;
+}
+
+
+.titulo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #53fc18;
+    height: 60px;
+    color: #081902;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0 20px;
+}
+
+.contenedor-secciones {
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+    height: 100%;
+}
+
+.lista-secciones {
+    display: flex;
+    gap: 20px; 
+    list-style-type: none; 
+    padding: 0;
+    margin: 0;
+}
+
+.li-secciones {
+    list-style: none;
+}
+
+.li-secciones a {
+    text-decoration: none;
+    color: #081902; 
+    font-weight: bold;
+}
+
+
+.articulo ul li {
+    display: inline-block;
+    background-color: #53fc18;
+    
+}
+
+.articulo {
+    background-color: #ffffffad;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width: 85%;
+}
+
+.top p {
+    color: #081902;
+}
+
+.portada {
+    width: 100% ;
+    height: 300px;
+}
+
+.bajada {   
+    width: 75%;
+}
+
+.contenido {
+    display: inline-block;
+    width: 70%;
+}
+
+.aside {
+    
+    color: #081902;
+    display: inline-block;
+    vertical-align: top;
+    background-color: #53fc18;
+    width: 30%;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.aside ul{
+    list-style-type: none;
+}
+
+.aside ul li a img{
+    width: 30px;
+    height: 30px;
+}
+
+
+
+ 
+
+.separador {
+    margin-top: 50px;
+    display: block;
+    height: 5px;
+    opacity: 0;
+}
+
+p {
+    display: block;
+}
+
+button {
+    font-size: 20px;
+    background-color: transparent;
+    border-style: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    list-style-type: none;
+}
+
+.galeria {
+    display: inline-block;
+    padding-left: 10%;
+}
+
+.miniatura {
+    display: inline-block;
+    width: 40%;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
+.miniatura img {
+    width: 100%;
+    height: auto;
+    background-color: yellow;
+}
+
+
+.top, .titulo, .articulo {
+    padding-left: 4px;
+}
+.footer {
+   
+    height: 100px;
+    width: 100vw;
+    
+}
+
+.boton-formulario{      
+  
+  text-align: center;
+
+}
+.a-form{
+    text-decoration: none;
+    color: inherit;
+    color: #081902;
+}
+form{
+    color: #081902;
+}
+:root{
+
+
+    --color-azul: #0d50ccb;
+}
+.consultas{
+    color: #081902;
+}
+
+.formulario-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.titulo {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.formulario {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.campo {
+    margin-bottom: 20px;
+}
+
+.label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius:   4px;
+}
+
+.boton {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background-color: #3e8e41;
+}
+
+
+@media (max-width: 600px){
+
+    .aside{
+        display: flex;
+        width: 100%;
+        flex-wrap: wrap;
+
+    }
+    .contenido{
+        width: 100%;
+    }
+    .titulogta {
+        display: flex;
+        justify-content: center;
+        font-size:90% ;
+    
+    }
+}

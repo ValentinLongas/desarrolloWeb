@@ -1,0 +1,241 @@
+body{
+    text-align: center;
+    background-color: #D1C8BC;
+}
+.titulo{
+
+    text-align: center;
+}
+
+.titulo-h1{
+    color: black;text-align: center;font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: inline-block;
+}
+
+.barra{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: right;
+ 
+}
+
+.parrafo{
+    font-size: 35px;
+     text-align: center;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     color: black;
+
+}
+
+.parrafo a{
+    text-decoration: none;
+    color: black;
+}
+.listas-barra{
+    width: 85px;
+    
+    color: black;
+    display: inline-block;
+    
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.listas-barra a{
+    color: black;
+    text-decoration:overline
+    
+}
+.listas-barra a:hover{
+    background-color:#A7937A ;
+    border-radius: 10px;
+    font-size: 20px;
+    
+}
+
+.contenedor-lista{
+    width: 250px;
+    background-color:#513b2049 ;
+    margin: 0 auto;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 20px;
+    margin-left: 35px;
+}
+
+
+
+.listas1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+
+
+}
+
+
+
+img{
+
+    padding-left: px;
+    margin-left: px;
+}
+
+
+body {
+    background-color:#D1C8BC;
+    /* text-align: center; */
+}
+
+#contenedor{
+    width: 1200px;
+    /* margin-left: 150px; */
+    margin: 0 auto;
+    /* display: inline-block; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.menu{
+    background-color: #A7937A;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+    /* line-height: 60px; */
+}
+
+.sidebar{
+    background-color: #A7937A   ;
+    width: 260px;
+    /* width: 25%; */
+    height: 80vh;
+    display: inline-block;
+    vertical-align: top;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sidebar p{
+    font-size: 25px;
+
+
+}
+.sidebar ol{
+    text-align: left;
+    list-style-type: none;
+    font-size: 15px;
+    
+    
+}
+
+.sidebar ol li{
+    padding-bottom: 75px;
+   
+    
+}
+.sidebar ol li a{
+    text-decoration: none;
+    color: inherit;
+}
+.sidebar ol li a:hover{
+    font-size: 25px;
+    border-bottom: 2px solid black;
+
+}
+    
+.content{
+    background-color: #FCDDB9;
+    width: calc(100% - 260px);
+    /* width: 75%; */
+    height: 80vh;
+    display: inline-block;
+    vertical-align: top;
+    
+}
+
+.menu ul li {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.menu ul li a {
+    background-color: #A7937A;
+    width: 140px;
+    height: 30px;
+    display: inline-block;
+    padding-top: 12px;
+    font-size: 20px;
+}
+
+.footer {
+    background-color: #A7937A;
+    height: 100px;
+}
+
+.tabla-dieta{
+    background-color: #A7937A;
+    padding: 50px;
+    border-radius: 5px;
+}
+td{
+    padding: 10px;
+}
+
+.imagenContent{
+    display: inline-block;
+    
+    transform: translateX(-32px);
+}
+
+.descripcionSerie{
+    display: inline-block;
+    vertical-align: top;
+}
+.imagenSerie{
+    border-radius: 20px;
+}
+
+.bodyDieta{
+    background-color: #D1C8BC;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    
+}
+
+.tituloDieta{
+    color: black; 
+    font-size: 40px;
+    text-align: center;
+}
+.h3Index{
+    text-align: center; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    color: #513B20;
+}
+.h4Index{
+    text-align: center;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     color: black;
+
+}
+.contenedorIndex{
+    text-align: center;
+}
+.contenedorIndex a{
+    color: black;
+   text-decoration: none
+   
+   
+}
+.imagenContent2{
+    display: inline-block;
+    
+    transform: translateX(-68px);
+}
+
+.imagenContent3{
+    display: inline-block;
+    
+    transform: translateX(-26px);
+}
+
+.imagenContent4{
+    display: inline-block;
+    
+    transform: translateX(-37px);
+}

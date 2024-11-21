@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Envía tu truco de GTA San Andreas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="formulario-container">
+        <h2 class="titulo">¡Comparte tu truco!</h2>
+        <form class="formulario" action="procesar_truco.php" method="POST" enctype="multipart/form-data">
+            <div class="campo">
+                <label class="label" for="truco">Truco:</label>
+                <textarea class="input" id="truco" name="truco" rows="5" cols="50" placeholder="Ingrese el truco aquí"></textarea>
+            </div>
+            <div class="campo">
+                <label class="label" for="plataforma">Plataforma:</label>
+                <select class="input" id="plataforma" name="plataforma">
+                    <option value="ps2">PC</option>
+                    <option value="ps3">PlayStation 2</option>
+                    <option value="ps4">PlayStation 3</soption>
+                    </select>
+            </div>
+            <div class="campo">
+                <label class="label" for="descripcion">Descripción:</label>
+                <textarea class="input" id="descripcion" name="descripcion" rows="3" cols="50" placeholder="Explica cómo funciona el truco"></textarea>
+            </div>
+            <div class="campo">
+                <label class="label" for="imagen">Imagen (opcional):</label>
+                <input class="input" type="file" id="imagen" name="imagen">
+            </div>
+            <div class="campo">
+                <label class="label" for="video">Video (opcional):</label>
+                <input class="input" type="file" id="video" name="video">
+            </div>
+            <button class="boton" type="submit">Enviar</button>
+            <a href="index.html" class="boton">Volver</a>
+        </form>
+    </section>
+    
+</body>
+</html>
